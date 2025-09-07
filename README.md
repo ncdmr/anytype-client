@@ -49,7 +49,7 @@ spaces = any.get_spaces()
 my_space = spaces[0]  # Use your preferred space
 
 # Create a new page
-note_type = my_space.get_type("Page")
+note_type = my_space.get_type_byname("Page")
 new_note = Object()
 new_note.name = "My Python-Powered Note 📝"
 new_note.icon = "🔥"
